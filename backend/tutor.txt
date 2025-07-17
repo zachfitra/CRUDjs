@@ -8,3 +8,6 @@ tutorial fullstack CRUD react dengan nodejs
 
 -buat folder config dalam folder backend lalu create file database.js
 -buat folder model dalam folder backend
+
+kode menggunakan react dengan mengetikan pada terminal "npx create-react-app ''nama folder'
+-pada frontend depedensi yang dibutuhkan adalah react-router-dom,axios,bullma css
