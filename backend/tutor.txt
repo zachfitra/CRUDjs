@@ -5,3 +5,6 @@ tutorial fullstack CRUD react dengan nodejs
 - install package json didalam folder backend dengan mengetikan "npm init -y"
 -install dependensi yang dibutuhkan dengan mengetikan perintah " npm i express mysql2 sequalize cors"
 -tambahkan "type" = "module" dibawah description
+
+-buat folder config dalam folder backend lalu create file database.js
+-buat folder model dalam folder backend
