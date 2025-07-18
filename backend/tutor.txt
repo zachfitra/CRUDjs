@@ -11,3 +11,9 @@ tutorial fullstack CRUD react dengan nodejs
 
 kode menggunakan react dengan mengetikan pada terminal "npx create-react-app ''nama folder'
 -pada frontend depedensi yang dibutuhkan adalah react-router-dom,axios,bullma css
+
+
+**
+sebelum melanjutkan project yg harus di pastikan adalah
+-server backend harus di nyalakan terlebih dahulu dengan cara memasukan perinntah pada terminal "nodemon index"
+-lalu untuk menjalankan server react dengan mengetikan perintah" npm start"
