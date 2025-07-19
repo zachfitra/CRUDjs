@@ -2,6 +2,7 @@ import React, {useState,useEffect} from "react";
 import axios from "axios";
 
 
+
 const UserList = () => {
 const [users, setUser] = useState([]);
 
@@ -17,6 +18,7 @@ const getUsers = async () => {
   return (
     <div className="columns mt-5 is-centered">
       <div className="column is-half">
+        <button type="submit" className="button is-small is-info">Add User</button> 
         <table className = "table is-striped is-fullwidth">
           <thead>
             <tr>
