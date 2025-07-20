@@ -9,14 +9,15 @@ const [gender,setGender ]= useState("Male");
 const navigate = useNavigate();
 const {id} = useParams();
 
+/* eslint-disable react-hooks/exhaustive-deps */
 useEffect (() =>{
     getUserById();
 },[]);
 
-const saveUser = async (e) => {
+const updateUser = async (e) => {
     e.preventDefault();
     try {
-        await axios.post('http://localhost:5000/users',
+        await axios.patch(`http://localhost:5000/users/${id}`, 
             {
                 name,
                 email,
@@ -37,7 +38,7 @@ const getUserById = async () =>{
   return (
     <div className="columns mt-5 is-centered">
       <div className="column is-half">
-        <form onSubmit={saveUser}>
+        <form onSubmit={updateUser}>
           <div className="field">
             <label className="label">Name</label>
             <div className="control">

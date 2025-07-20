@@ -10,14 +10,15 @@ Content-Type: application/json
 
 
 {
-    "name" : "Ahmad zaki",
+    "name" : " zaki",
     "email" : "exelfsafa@nurfa",
     "gender" :"male"
 
 }
 
+
 ###
-PATCH   http://localhost:5000/users/3
+PATCH   http://localhost:5000/users/1
 Content-Type: application/json 
 
 
